@@ -1,4 +1,4 @@
-# CTF Write-Ups
+Burp# CTF Write-Ups
 
 A curated collection of write-ups for Capture The Flag (CTF) challenges I've completed across various platforms and competitions.
 
@@ -19,25 +19,23 @@ This repository serves as a comprehensive archive of my CTF journey, documenting
 ```
 CTF-Write-Ups/
 ├── PicoCTF/
-│   ├── [Year]/
-│   │   ├── [Category]/
-│   │   │   └── [Challenge-Name]/
-│   │   │       ├── README.md
-│   │   │       └── [solution files]
+│   └── images/
 ├── Hackerverse/
-│   └── [Challenge-Name]/
-│       ├── README.md
-│       └── [solution files]
+│   └── images/
 ├── TryHackMe/
-│   └── [Room-Name]/
+│   └── Burp Suite: Intruder/
 │       ├── README.md
-│       └── [solution files]
+│       └── images/
 ├── HackTheBox/
-│   └── [Machine-Name]/
-│       ├── README.md
-│       └── [solution files]
+│   └── images/
+├── TEMPLATE.md
 └── README.md
 ```
+
+**Structure Guidelines:**
+- Each challenge/room/machine should have its own folder
+- Store all screenshots in an `images/` subfolder within each challenge
+- Use `TEMPLATE.md` as a starting point for new write-ups
 
 ## 🏆 Categories
 
