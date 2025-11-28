@@ -1,4 +1,4 @@
-Burp# CTF Write-Ups
+# CTF Write-Ups
 
 A curated collection of write-ups for Capture The Flag (CTF) challenges I've completed across various platforms and competitions.
 
