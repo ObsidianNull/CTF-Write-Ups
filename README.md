@@ -9,9 +9,6 @@ This repository serves as a comprehensive archive of my CTF journey, documenting
 ## 🎯 Platforms
 
 - **PicoCTF** - Educational CTF platform by Carnegie Mellon University
-- **Hackerverse** - Cybersecurity challenges and competitions
-- **TryHackMe** - Interactive cybersecurity training rooms
-- **HackTheBox** - Penetration testing labs and challenges
 - **Additional platforms** as I continue to explore more CTF competitions
 
 ## 📁 Repository Structure
@@ -19,22 +16,38 @@ This repository serves as a comprehensive archive of my CTF journey, documenting
 ```
 CTF-Write-Ups/
 ├── PicoCTF/
-│   └── images/
-├── Hackerverse/
-│   └── images/
-├── TryHackMe/
-│   └── Burp Suite: Intruder/
-│       ├── README.md
-│       └── images/
-├── HackTheBox/
-│   └── images/
+│   ├── Bytemancy 1/
+│   │   └── README.md
+│   ├── images/
+│   │   ├── bytemancy-1-ascii-converter.png
+│   │   ├── bytemancy-1-challenge.png
+│   │   ├── bytemancy-1-flag.png
+│   │   ├── bytemancy-1-prompt.png
+│   │   ├── bytemancy-1-repeat-text.png
+│   │   ├── my-git-challenge.png
+│   │   ├── my-git-clone-readme.png
+│   │   ├── my-git-push-flag.png
+│   │   └── undo-full-session.png
+│   ├── MY GIT/
+│   │   └── README.md
+│   └── Undo/
+│       └── README.md
 ├── TEMPLATE.md
 └── README.md
 ```
 
+**Write-Ups:**
+
+| Platform | Challenge | Category | Status |
+|----------|-----------|----------|--------|
+| PicoCTF | [Bytemancy 1](PicoCTF/Bytemancy%201/README.md) | General Skills | Complete |
+| PicoCTF | [Undo](PicoCTF/Undo/README.md) | General Skills | Complete |
+| PicoCTF | [MY GIT](PicoCTF/MY%20GIT/README.md) | General Skills | Complete |
+
 **Structure Guidelines:**
-- Each challenge/room/machine should have its own folder
-- Store all screenshots in an `images/` subfolder within each challenge
+- Each challenge/room/machine should have its own folder containing a `README.md`
+- Store each platform's screenshots in a shared `images/` folder at the platform level (e.g. `PicoCTF/images/`) and prefix each file with the challenge name (e.g. `undo-full-session.png`) so it's clear which write-up it belongs to
+- Link to those images from a challenge's `README.md` with a relative path (e.g. `../images/undo-full-session.png`)
 - Use `TEMPLATE.md` as a starting point for new write-ups
 
 ## 🏆 Categories
@@ -99,4 +112,4 @@ This repository is for educational purposes. Please use responsibly and ethicall
 
 ---
 
-**Last Updated:** November 2025
+**Last Updated:** September 2026

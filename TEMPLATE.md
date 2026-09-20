@@ -2,7 +2,7 @@
 
 **Points:** [Point Value]
 
-**Platform:** [PicoCTF/Hackerverse/TryHackMe/HackTheBox]
+**Platform:** [PicoCTF]
 
 **Difficulty:** [Easy/Medium/Hard]
 
