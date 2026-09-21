@@ -16,9 +16,13 @@ This repository serves as a comprehensive archive of my CTF journey, documenting
 ```
 CTF-Write-Ups/
 ├── PicoCTF/
+│   ├── Bytemancy 0/
+│   │   └── README.md
 │   ├── Bytemancy 1/
 │   │   └── README.md
 │   ├── images/
+│   │   ├── bytemancy-0-challenge.png
+│   │   ├── bytemancy-0-session.png
 │   │   ├── bytemancy-1-ascii-converter.png
 │   │   ├── bytemancy-1-challenge.png
 │   │   ├── bytemancy-1-flag.png
@@ -27,8 +31,29 @@ CTF-Write-Ups/
 │   │   ├── my-git-challenge.png
 │   │   ├── my-git-clone-readme.png
 │   │   ├── my-git-push-flag.png
+│   │   ├── piece-by-piece-challenge.png
+│   │   ├── piece-by-piece-combine-parts.png
+│   │   ├── piece-by-piece-flag.png
+│   │   ├── piece-by-piece-ssh-login.png
+│   │   ├── piece-by-piece-troubleshooting.png
+│   │   ├── ping-cmd-challenge.png
+│   │   ├── ping-cmd-full-session.png
+│   │   ├── printer-shares-challenge.png
+│   │   ├── printer-shares-flag.png
+│   │   ├── printer-shares-smbclient-session.png
+│   │   ├── sudo-sandwich-challenge.png
+│   │   ├── sudo-sandwich-flag.png
+│   │   ├── sudo-sandwich-terminal-session.png
 │   │   └── undo-full-session.png
 │   ├── MY GIT/
+│   │   └── README.md
+│   ├── Piece by Piece/
+│   │   └── README.md
+│   ├── ping-cmd/
+│   │   └── README.md
+│   ├── Printer Shares/
+│   │   └── README.md
+│   ├── Sudo Make Me a Sandwich/
 │   │   └── README.md
 │   └── Undo/
 │       └── README.md
@@ -40,9 +65,14 @@ CTF-Write-Ups/
 
 | Platform | Challenge | Category | Status |
 |----------|-----------|----------|--------|
+| PicoCTF | [Bytemancy 0](PicoCTF/Bytemancy%200/README.md) | General Skills | Complete |
 | PicoCTF | [Bytemancy 1](PicoCTF/Bytemancy%201/README.md) | General Skills | Complete |
 | PicoCTF | [Undo](PicoCTF/Undo/README.md) | General Skills | Complete |
 | PicoCTF | [MY GIT](PicoCTF/MY%20GIT/README.md) | General Skills | Complete |
+| PicoCTF | [Piece by Piece](PicoCTF/Piece%20by%20Piece/README.md) | General Skills | Complete |
+| PicoCTF | [ping-cmd](PicoCTF/ping-cmd/README.md) | General Skills | Complete |
+| PicoCTF | [Printer Shares](PicoCTF/Printer%20Shares/README.md) | General Skills | Complete |
+| PicoCTF | [Sudo Make Me a Sandwich](PicoCTF/Sudo%20Make%20Me%20a%20Sandwich/README.md) | General Skills | Complete |
 
 **Structure Guidelines:**
 - Each challenge/room/machine should have its own folder containing a `README.md`
